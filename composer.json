@@ -1,0 +1,40 @@
+{
+    "name": "sinch/sinch-sdk-php",
+    "version": "0.0.1",
+    "description": "sinch API PHP SDK",
+    "keywords": [
+        "sinch",
+        "openapi",
+        "php",
+        "sdk",
+        "rest",
+        "api"
+    ],
+    "homepage": "https://github.com/sinch",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "sinch",
+            "homepage": "https://github.com/sinch"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "ext-mbstring": "*",
+        "guzzlehttp/guzzle": "^7.4.5",
+        "guzzlehttp/psr7": "^2.0"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^3.5",
+        "phpunit/phpunit": "^12.0",
+        "phpstan/phpstan": "^2.1"
+    },
+    "autoload": {
+        "psr-4": { "Sinch\\" : "src/" }
+    },
+    "autoload-dev": {
+        "psr-4": { "Sinch\\Test\\" : "tests/" }
+    }
+}
