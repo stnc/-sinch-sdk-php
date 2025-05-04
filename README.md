@@ -1,7 +1,12 @@
+## ATTENTION THIS SDK IS STILL UNDER DEVELOPMENT. PLEASE SEE THE  [COVERAGE SECTION.](#Coverage)
+
 # Sinch PHP SDK
 
+Here you'll find documentation related to the Sinch php SDK, including how to install it, initialize it, and start developing PHP code using Sinch services.
 
-A GitLab API client enabling PHP programs to interact with GitLab in a simple and uniform way
+To use Sinch services, you'll need a Sinch account and access keys. You can sign up for an account and create access keys at  [dashboard.sinch.com](https://dashboard.sinch.com).
+
+For more information on the Sinch APIs on which this SDK is based, refer to the official [developer documentation portal](https://developers.sinch.com/).
 
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://github.com/sinch/sinch-sdk-dotnet/blob/main/LICENSE)
 
